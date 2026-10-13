@@ -64,9 +64,9 @@ The strongest churn drivers according to SHAP are the number of products, age, a
 
 ```
 Churn_Prediction_Bank/
-  churn_app.py          Full pipeline and all commands
-  Churn_Modelling.csv   Dataset (download from Kaggle, see below)
-  README.md
+churn_app.py          Full pipeline and all commands
+Churn_Modelling.csv   Dataset (download from Kaggle, see below)
+README.md
   
 ```
 
