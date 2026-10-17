@@ -1,0 +1,22 @@
+# Core data and modelling
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.2        # OneHotEncoder(sparse_output=...) needs 1.2+
+lightgbm>=4.0
+joblib>=1.3
+matplotlib>=3.8          # eda command
+
+# Experiment tracking (optional: train still works without it)
+mlflow>=3.0              # log_model(name=...) needs MLflow 3+
+
+# Explainability
+shap>=0.44
+
+# API (api command)
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.0
+
+# Dashboard (dashboard command)
+streamlit>=1.32
